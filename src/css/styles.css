@@ -1,3 +1,4 @@
+
 /**
   |============================
   | include css partials with
@@ -5,21 +6,28 @@
   |============================
 */
 @import url('./reset.css');
-@import url('./vite-promo.css');
-@import url('./header.css');
+@import url('./1-timer.css');
+@import url('./2-snackbar.css');
 
-:root {
-  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 400;
-
-  color: #242424;
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  line-height: 48px;
+  font-weight: 600;
+  
+  color: grey ;
   background-color: rgba(255, 255, 255, 0.87);
+}
 
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
+.nav-main {
+  margin: 100px;
+
+}
+
+.link-main:hover {
+  color: #6C8CFF;  
+}
+
+.section {
+  padding: 50px;
 }
